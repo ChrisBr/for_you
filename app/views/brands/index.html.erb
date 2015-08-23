@@ -10,7 +10,7 @@
           <img class="img-responsive img-border-left" src="<%= brand.logo.url %>" alt="">
         </div>
         <div class="col-md-9">
-          <p><%= brand.description %></p>
+          <p><%= markdown(brand.description) %></p>
         </div>
         <div class="clearfix"></div>
       </div>
