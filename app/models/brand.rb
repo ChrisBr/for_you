@@ -5,4 +5,6 @@ class Brand < ActiveRecord::Base
   validates_presence_of :name, :description
 
   default_scope { order('name ASC') }
+
+  self.per_page = 3
 end

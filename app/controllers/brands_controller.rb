@@ -1,6 +1,6 @@
 class BrandsController < ApplicationController
   # GET /brands
   def index
-    @brands = Brand.all
+    @brands = Brand.paginate(:page => params[:page])
   end
 end

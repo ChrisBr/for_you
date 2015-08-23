@@ -1,6 +1,6 @@
 class OffersController < ApplicationController
   # GET /offers
   def index
-    @offers = Offer.all
+    @offers = Offer.paginate(:page => params[:page])
   end
 end
