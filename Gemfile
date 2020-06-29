@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'sqlite3', "~> 1.3.6"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -24,16 +24,16 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Our lightweight CMS system
-gem 'casein', '~>5.1.1'
+gem 'casein'
 
 # We use paperclip to upload and store the images
-gem "paperclip", "~> 4.3"
+gem "paperclip"
 
 gem "twitter-bootstrap-rails"
 
 gem 'friendly_id', '~> 5.1.0'
 
-gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate'
 
 gem 'redcarpet'
 
